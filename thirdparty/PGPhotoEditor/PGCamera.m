@@ -3,7 +3,8 @@
 #import "PGCameraMovieWriter.h"
 #import "PGCameraDeviceAngleSampler.h"
 
-#import "SQueue.h"
+//#import "SQueue.h"
+#import <SSignalKit/SQueue.h>
 
 #import "TGAccessChecker.h"
 #import "TGCameraPreviewView.h"

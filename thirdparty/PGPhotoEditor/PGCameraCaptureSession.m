@@ -8,7 +8,8 @@
 #import <Accelerate/Accelerate.h>
 
 #import <AVFoundation/AVFoundation.h>
-#import "SQueue.h"
+//#import "SQueue.h"
+#import <SSignalKit/SQueue.h>
 
 #import "TGAudioSessionManager.h"
 

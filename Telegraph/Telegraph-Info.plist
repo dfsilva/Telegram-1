@@ -74,7 +74,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.16</string>
+	<string>3.18</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -111,7 +111,15 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
+<<<<<<< HEAD
 	<string>59827</string>
+=======
+	<string>61064</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>ITSAppUsesNonExemptEncryption </key>
+	<false/>
+>>>>>>> upstream/public
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>

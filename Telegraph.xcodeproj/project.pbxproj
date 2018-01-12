@@ -458,7 +458,6 @@
 		6836F8C41BB2601000D3A77B /* TGBridgeUnsupportedMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C501BB2592500205AC3 /* TGBridgeUnsupportedMediaAttachment.m */; };
 		6836F8C51BB2601000D3A77B /* TGBridgeVideoMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C521BB2592500205AC3 /* TGBridgeVideoMediaAttachment.m */; };
 		6836F8C61BB2601000D3A77B /* TGBridgeWebPageMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C541BB2592500205AC3 /* TGBridgeWebPageMediaAttachment.m */; };
->>>>>>> upstream/public
 		6836F8D41BB2601200D3A77B /* TGBridgeImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CCC1BB2599600205AC3 /* TGBridgeImageInfo.m */; };
 		6836F8D51BB2601200D3A77B /* TGBridgeActionMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C3C1BB2592500205AC3 /* TGBridgeActionMediaAttachment.m */; };
 		6836F8D61BB2601200D3A77B /* TGBridgeAudioMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C3E1BB2592500205AC3 /* TGBridgeAudioMediaAttachment.m */; };
@@ -473,6 +472,7 @@
 		6836F8DF1BB2601200D3A77B /* TGBridgeUnsupportedMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C501BB2592500205AC3 /* TGBridgeUnsupportedMediaAttachment.m */; };
 		6836F8E01BB2601200D3A77B /* TGBridgeVideoMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C521BB2592500205AC3 /* TGBridgeVideoMediaAttachment.m */; };
 		6836F8E11BB2601200D3A77B /* TGBridgeWebPageMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C541BB2592500205AC3 /* TGBridgeWebPageMediaAttachment.m */; };
+		6836F8E21BB2602800D3A77B /* TGBridgePeerNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CD81BB2599600205AC3 /* TGBridgePeerNotificationSettings.m */; };
 		6836F8E31BB2626600D3A77B /* TGBridgeChatListSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BC91BB2587600205AC3 /* TGBridgeChatListSubscription.m */; };
 		6836F8E41BB2626600D3A77B /* TGBridgeChatMessageListSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BCB1BB2587600205AC3 /* TGBridgeChatMessageListSubscription.m */; };
 		6836F8E51BB2626600D3A77B /* TGBridgeContactsSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BCD1BB2587600205AC3 /* TGBridgeContactsSubscription.m */; };
@@ -546,6 +546,7 @@
 		68521C8B1BCE80A100B8A6FA /* MediaVideo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68521C7F1BCE80A100B8A6FA /* MediaVideo@3x.png */; };
 		68521C8C1BCE80A100B8A6FA /* MediaVoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68521C801BCE80A100B8A6FA /* MediaVoice@2x.png */; };
 		68521C8D1BCE80A100B8A6FA /* MediaVoice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68521C811BCE80A100B8A6FA /* MediaVoice@3x.png */; };
+		6852E6831BD3BE8E0026A0C7 /* TGNeoConversationTimeRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6852E6821BD3BE8E0026A0C7 /* TGNeoConversationTimeRowController.m */; };
 		6852EAEE1D0F108100178AD8 /* TGPreviewConversationItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6852EAEC1D0F108100178AD8 /* TGPreviewConversationItemView.h */; };
 		6852EAEF1D0F108100178AD8 /* TGPreviewConversationItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6852EAED1D0F108100178AD8 /* TGPreviewConversationItemView.m */; };
 		68535EE21C4F8D72001821D9 /* TGWatchReplyCollectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 68535EE01C4F8D72001821D9 /* TGWatchReplyCollectionItem.h */; };
@@ -580,6 +581,8 @@
 		686ED3201BF3CBB8001F2F96 /* StickerPanelPopupLeftDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686ED31D1BF3CBB8001F2F96 /* StickerPanelPopupLeftDark@2x.png */; };
 		686ED3211BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686ED31E1BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png */; };
 		686ED3221BF3CBB8001F2F96 /* StickerPanelPopupRightDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686ED31F1BF3CBB8001F2F96 /* StickerPanelPopupRightDark@2x.png */; };
+		68744C1A1BB1A9F700FE6542 /* watchkitapp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68744C2E1BB1A9F800FE6542 /* watchkitapp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68744C0D1BB1A9F700FE6542 /* watchkitapp.app */; };
 		6875C8541BBD27DF0061D94C /* TGMenuSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6875C8521BBD27DF0061D94C /* TGMenuSheetController.h */; };
 		6875C8581BBD28000061D94C /* TGMenuSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6875C8561BBD28000061D94C /* TGMenuSheetView.h */; };
 		6875C85C1BBD28240061D94C /* TGCheckButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6875C85A1BBD28240061D94C /* TGCheckButtonView.h */; };
@@ -651,6 +654,7 @@
 		68B22D2B1C171BD300EE8FF9 /* SettingsPrivacyIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B22D251C171BD300EE8FF9 /* SettingsPrivacyIcon@2x.png */; };
 		68B22D2C1C171BD300EE8FF9 /* SettingsStickersIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B22D261C171BD300EE8FF9 /* SettingsStickersIcon@2x.png */; };
 		68B22D2E1C171BD300EE8FF9 /* SettingsWallpaperIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B22D281C171BD300EE8FF9 /* SettingsWallpaperIcon@2x.png */; };
+		68B6390F1BB1B01600205AC3 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B639091BB1B00400205AC3 /* Resources.xcassets */; };
 		68B6395E1BB2506F00205AC3 /* SAtomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B639281BB2506F00205AC3 /* SAtomic.h */; };
 		68B639601BB2506F00205AC3 /* SBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B6392A1BB2506F00205AC3 /* SBag.h */; };
 		68B639621BB2506F00205AC3 /* SBlockDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B6392C1BB2506F00205AC3 /* SBlockDisposable.h */; };
@@ -797,6 +801,30 @@
 		68B63B871BB2581800205AC3 /* TGBridgeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B761BB2580600205AC3 /* TGBridgeCommon.m */; };
 		68B63B881BB2581900205AC3 /* TGBridgeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B781BB2580600205AC3 /* TGBridgeResponse.m */; };
 		68B63B891BB2581C00205AC3 /* TGBridgeSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B7A1BB2580600205AC3 /* TGBridgeSubscription.m */; };
+		68B63BBA1BB2584200205AC3 /* TGBridgeBotSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B8B1BB2583500205AC3 /* TGBridgeBotSignals.m */; };
+		68B63BBB1BB2584200205AC3 /* TGBridgeChatListSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B8D1BB2583500205AC3 /* TGBridgeChatListSignals.m */; };
+		68B63BBC1BB2584200205AC3 /* TGBridgeChatMessageListSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B8F1BB2583500205AC3 /* TGBridgeChatMessageListSignals.m */; };
+		68B63BBD1BB2584200205AC3 /* TGBridgeContactsSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B911BB2583500205AC3 /* TGBridgeContactsSignals.m */; };
+		68B63BBE1BB2584200205AC3 /* TGBridgeConversationSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B931BB2583500205AC3 /* TGBridgeConversationSignals.m */; };
+		68B63BBF1BB2584200205AC3 /* TGBridgeLocationSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B951BB2583500205AC3 /* TGBridgeLocationSignals.m */; };
+		68B63BC01BB2584200205AC3 /* TGBridgeMediaSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B971BB2583500205AC3 /* TGBridgeMediaSignals.m */; };
+		68B63BC11BB2584200205AC3 /* TGBridgePeerSettingsSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B991BB2583500205AC3 /* TGBridgePeerSettingsSignals.m */; };
+		68B63BC21BB2584200205AC3 /* TGBridgeRemoteSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B9B1BB2583500205AC3 /* TGBridgeRemoteSignals.m */; };
+		68B63BC31BB2584200205AC3 /* TGBridgeSendMessageSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B9D1BB2583500205AC3 /* TGBridgeSendMessageSignals.m */; };
+		68B63BC41BB2584200205AC3 /* TGBridgeStickersSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63B9F1BB2583500205AC3 /* TGBridgeStickersSignals.m */; };
+		68B63BC51BB2584200205AC3 /* TGBridgeUserInfoSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BA11BB2583500205AC3 /* TGBridgeUserInfoSignals.m */; };
+		68B63BF81BB2588300205AC3 /* TGBridgeChatListSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BC91BB2587600205AC3 /* TGBridgeChatListSubscription.m */; };
+		68B63BF91BB2588300205AC3 /* TGBridgeChatMessageListSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BCB1BB2587600205AC3 /* TGBridgeChatMessageListSubscription.m */; };
+		68B63BFA1BB2588300205AC3 /* TGBridgeContactsSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BCD1BB2587600205AC3 /* TGBridgeContactsSubscription.m */; };
+		68B63BFB1BB2588300205AC3 /* TGBridgeConversationSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BCF1BB2587600205AC3 /* TGBridgeConversationSubscription.m */; };
+		68B63BFC1BB2588300205AC3 /* TGBridgeLocationSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BD11BB2587600205AC3 /* TGBridgeLocationSubscription.m */; };
+		68B63BFD1BB2588300205AC3 /* TGBridgeMediaSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BD31BB2587600205AC3 /* TGBridgeMediaSubscription.m */; };
+		68B63BFE1BB2588300205AC3 /* TGBridgePeerSettingsSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BD51BB2587600205AC3 /* TGBridgePeerSettingsSubscription.m */; };
+		68B63BFF1BB2588300205AC3 /* TGBridgeRemoteSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BD71BB2587600205AC3 /* TGBridgeRemoteSubscription.m */; };
+		68B63C001BB2588300205AC3 /* TGBridgeSendMessageSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BD91BB2587600205AC3 /* TGBridgeSendMessageSubscription.m */; };
+		68B63C011BB2588300205AC3 /* TGBridgeStateSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BDB1BB2587600205AC3 /* TGBridgeStateSubscription.m */; };
+		68B63C021BB2588300205AC3 /* TGBridgeStickersSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BDD1BB2587600205AC3 /* TGBridgeStickersSubscription.m */; };
+		68B63C031BB2588300205AC3 /* TGBridgeUserInfoSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63BDF1BB2587600205AC3 /* TGBridgeUserInfoSubscription.m */; };
 		68B63C281BB258E300205AC3 /* TGBridgeBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C051BB258D200205AC3 /* TGBridgeBotInfo.m */; };
 		68B63C291BB258E300205AC3 /* TGBridgeBotReplyMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C071BB258D200205AC3 /* TGBridgeBotReplyMarkup.m */; };
 		68B63C2A1BB258E300205AC3 /* TGBridgeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C091BB258D200205AC3 /* TGBridgeChat.m */; };
@@ -806,6 +834,15 @@
 		68B63C2E1BB258E300205AC3 /* TGBridgeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C111BB258D200205AC3 /* TGBridgeMessage.m */; };
 		68B63C2F1BB258E300205AC3 /* TGBridgeStickerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C131BB258D200205AC3 /* TGBridgeStickerPack.m */; };
 		68B63C301BB258E300205AC3 /* TGBridgeUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C151BB258D200205AC3 /* TGBridgeUser.m */; };
+		68B63C311BB258E700205AC3 /* TGBridgeBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C051BB258D200205AC3 /* TGBridgeBotInfo.m */; };
+		68B63C321BB258E700205AC3 /* TGBridgeBotReplyMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C071BB258D200205AC3 /* TGBridgeBotReplyMarkup.m */; };
+		68B63C331BB258E700205AC3 /* TGBridgeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C091BB258D200205AC3 /* TGBridgeChat.m */; };
+		68B63C341BB258E700205AC3 /* TGBridgeChatMessageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C0B1BB258D200205AC3 /* TGBridgeChatMessageListView.m */; };
+		68B63C351BB258E700205AC3 /* TGBridgeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C0D1BB258D200205AC3 /* TGBridgeContext.m */; };
+		68B63C361BB258E700205AC3 /* TGBridgeLocationVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C0F1BB258D200205AC3 /* TGBridgeLocationVenue.m */; };
+		68B63C371BB258E700205AC3 /* TGBridgeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C111BB258D200205AC3 /* TGBridgeMessage.m */; };
+		68B63C381BB258E700205AC3 /* TGBridgeStickerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C131BB258D200205AC3 /* TGBridgeStickerPack.m */; };
+		68B63C391BB258E700205AC3 /* TGBridgeUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C151BB258D200205AC3 /* TGBridgeUser.m */; };
 		68B63CB01BB2596200205AC3 /* TGBridgeActionMediaAttachment+TGActionMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C701BB2594E00205AC3 /* TGBridgeActionMediaAttachment+TGActionMediaAttachment.m */; };
 		68B63CB11BB2596200205AC3 /* TGBridgeAudioMediaAttachment+TGAudioMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C721BB2594E00205AC3 /* TGBridgeAudioMediaAttachment+TGAudioMediaAttachment.m */; };
 		68B63CB21BB2596200205AC3 /* TGBridgeContactMediaAttachment+TGContactMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63C741BB2594E00205AC3 /* TGBridgeContactMediaAttachment+TGContactMediaAttachment.m */; };
@@ -832,6 +869,12 @@
 		68B63CFE1BB2599600205AC3 /* TGBridgePeerNotificationSettings+TGPeerNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CDA1BB2599600205AC3 /* TGBridgePeerNotificationSettings+TGPeerNotificationSettings.m */; };
 		68B63D001BB2599600205AC3 /* TGBridgeStickerPack+TGStickerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CDC1BB2599600205AC3 /* TGBridgeStickerPack+TGStickerPack.m */; };
 		68B63D041BB2599600205AC3 /* TGBridgeUser+TGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CE01BB2599600205AC3 /* TGBridgeUser+TGUser.m */; };
+		68B63D051BB259A300205AC3 /* TGBridgeBotCommandInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CBE1BB2599600205AC3 /* TGBridgeBotCommandInfo.m */; };
+		68B63D071BB259BB00205AC3 /* TGBridgeUser+TGTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CDE1BB2599600205AC3 /* TGBridgeUser+TGTableItem.m */; };
+		68B63D081BB259C300205AC3 /* TGBridgeLocationVenue+TGTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CD21BB2599600205AC3 /* TGBridgeLocationVenue+TGTableItem.m */; };
+		68B63D091BB259C600205AC3 /* TGBridgeMessage+TGTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CD61BB2599600205AC3 /* TGBridgeMessage+TGTableItem.m */; };
+		68B63D0A1BB259D200205AC3 /* TGBridgeChat+TGTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63CC81BB2599600205AC3 /* TGBridgeChat+TGTableItem.m */; };
+		68B63D101BB25A1600205AC3 /* TGBridgeStateSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63D0D1BB25A1200205AC3 /* TGBridgeStateSignal.m */; };
 		68B63D2F1BB25B1F00205AC3 /* TGBridgeChatListHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63D151BB25B1F00205AC3 /* TGBridgeChatListHandler.m */; };
 		68B63D311BB25B1F00205AC3 /* TGBridgeChatMessageListHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63D171BB25B1F00205AC3 /* TGBridgeChatMessageListHandler.m */; };
 		68B63D331BB25B1F00205AC3 /* TGBridgeContactsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B63D191BB25B1F00205AC3 /* TGBridgeContactsHandler.m */; };
@@ -890,8 +933,10 @@
 		68BB4A461CA5429200A7EF6E /* TGPreviewGifItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB4A441CA5429200A7EF6E /* TGPreviewGifItemView.m */; };
 		68BBB20F1BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BBB20D1BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.h */; };
 		68BBB2101BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB20E1BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.m */; };
+		68BBB2111BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB20E1BE9DE0100237553 /* TGBridgeMessageEntitiesAttachment.m */; };
 		68BBB21E1BE9DED300237553 /* TGBridgeMessageEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BBB21C1BE9DED300237553 /* TGBridgeMessageEntities.h */; };
 		68BBB21F1BE9DED300237553 /* TGBridgeMessageEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB21D1BE9DED300237553 /* TGBridgeMessageEntities.m */; };
+		68BBB2201BE9DED300237553 /* TGBridgeMessageEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB21D1BE9DED300237553 /* TGBridgeMessageEntities.m */; };
 		68BBB2231BE9E0C000237553 /* TGBridgeMessageEntity+TGMessageEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BBB2211BE9E0C000237553 /* TGBridgeMessageEntity+TGMessageEntity.h */; };
 		68BBB2241BE9E0C000237553 /* TGBridgeMessageEntity+TGMessageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB2221BE9E0C000237553 /* TGBridgeMessageEntity+TGMessageEntity.m */; };
 		68BBB2271BE9E0D800237553 /* TGBridgeMessageEntitiesAttachment+TGMessageEntitiesAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BBB2251BE9E0D800237553 /* TGBridgeMessageEntitiesAttachment+TGMessageEntitiesAttachment.h */; };
@@ -2918,11 +2963,15 @@
 		D020B75C18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D020B75B18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png */; };
 		D020B75F18B509C50026DB24 /* ModernConversationMicButton_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D020B75D18B509C50026DB24 /* ModernConversationMicButton_Highlighted@2x.png */; };
 		D020B76018B509C50026DB24 /* ModernConversationMicButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D020B75E18B509C50026DB24 /* ModernConversationMicButton@2x.png */; };
+		D020FAE11D99466A00F279AA /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FAE01D99466A00F279AA /* IntentHandler.m */; };
+		D020FAE51D99466A00F279AA /* SiriIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D020FADD1D99466A00F279AA /* SiriIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D020FB021D995E9000F279AA /* MtProtoKitDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B301C7C86B200DD5E83 /* MtProtoKitDynamic.framework */; };
 		D020FB0E1D99637200F279AA /* LegacyDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB0C1D99637200F279AA /* LegacyDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D020FB121D99637200F279AA /* LegacyDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D020FB1A1D9963D600F279AA /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = D020FB171D9963D600F279AA /* sqlite3.c */; };
 		D020FB1B1D9963D600F279AA /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB181D9963D600F279AA /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D020FB1C1D9963D600F279AA /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB191D9963D600F279AA /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D020FB1D1D9963FD00F279AA /* LegacyDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		D020FB211D99663100F279AA /* TGLegacyDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB1F1D99663100F279AA /* TGLegacyDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D020FB221D99663100F279AA /* TGLegacyDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FB201D99663100F279AA /* TGLegacyDatabase.m */; };
 		D020FB231D99665400F279AA /* LegacyDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; };
@@ -3018,6 +3067,7 @@
 		D020FBE51D99782C00F279AA /* TGTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FBE31D99782C00F279AA /* TGTColor.m */; };
 		D020FBE61D99782C00F279AA /* TGTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FBE41D99782C00F279AA /* TGTColor.h */; };
 		D020FBE81D999B3200F279AA /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FBE71D999B3200F279AA /* Intents.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D020FBE91D999B4100F279AA /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FBE71D999B3200F279AA /* Intents.framework */; };
 		D020FBEA1D99A83C00F279AA /* MtProtoKitDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B301C7C86B200DD5E83 /* MtProtoKitDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D02344B21DEEFBD800FB7C68 /* TGDialogListCellEditingControls.h in Headers */ = {isa = PBXBuildFile; fileRef = D02344B01DEEFBD800FB7C68 /* TGDialogListCellEditingControls.h */; };
 		D02344B31DEEFBD800FB7C68 /* TGDialogListCellEditingControls.m in Sources */ = {isa = PBXBuildFile; fileRef = D02344B11DEEFBD800FB7C68 /* TGDialogListCellEditingControls.m */; };
@@ -4754,9 +4804,7 @@
 		D0FD89A3156FD4FC00CC3714 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD89A2156FD4FB00CC3714 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D0FFBDDF1BAB0E7300F532C9 /* TGChannelMembersController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */; };
 		D0FFBDE01BAB0E7300F532C9 /* TGChannelMembersController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */; };
-		F1C735B51E4BD532009BE01D /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C735AC1E4BD51F009BE01D /* SSignalKit.framework */; };
-		F1C735B61E4BD532009BE01D /* SSignalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1C735AC1E4BD51F009BE01D /* SSignalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1C735B91E4BF8BE009BE01D /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C735AC1E4BD51F009BE01D /* SSignalKit.framework */; };
+		F1A071DE2008E6D30087ADCE /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A071D42008E6D20087ADCE /* config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -4809,7 +4857,6 @@
 			remoteGlobalIDString = D020FADC1D99466A00F279AA;
 			remoteInfo = SiriIntents;
 		};
->>>>>>> upstream/public
 		D020FAF41D994A6700F279AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
@@ -4824,12 +4871,40 @@
 			remoteGlobalIDString = D0CB05F61ADC4483005E298F;
 			remoteInfo = MtProtoKit;
 		};
+		D020FB031D995E9700F279AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D2250A1B4D817B0085E26D;
+			remoteInfo = MtProtoKitDynamic;
+		};
 		D020FB0F1D99637200F279AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D08805A3156E8F3600311537 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D020FB091D99637100F279AA;
 			remoteInfo = LegacyDatabase;
+		};
+		D04324E21DC26E2E00E0C528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0B417ED1D7DFA63004562A4;
+			remoteInfo = SwiftSignalKitMac;
+		};
+		D044E1571B2A20DB001EE087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0085B221B282B9800EAF753;
+			remoteInfo = SwiftSignalKit;
+		};
+		D044E1591B2A20DB001EE087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
+			remoteInfo = SwiftSignalKitTests;
 		};
 		D061F3001A9290F80031BCBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4894,57 +4969,27 @@
 			remoteGlobalIDString = D00354651C173BF0006610DA;
 			remoteInfo = MtProtoKitStabilityTests;
 		};
-		F1C735AB1E4BD51F009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0445DD81A7C2CA500267924;
-			remoteInfo = SSignalKit;
-		};
-		F1C735AD1E4BD51F009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0445DE31A7C2CA500267924;
-			remoteInfo = SSignalKitTests;
-		};
-		F1C735AF1E4BD51F009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0085B221B282B9800EAF753;
-			remoteInfo = SwiftSignalKit;
-		};
-		F1C735B11E4BD51F009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
-			remoteInfo = SwiftSignalKitTests;
-		};
-		F1C735B31E4BD51F009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0B417ED1D7DFA63004562A4;
-			remoteInfo = SwiftSignalKitMac;
-		};
-		F1C735B71E4BD532009BE01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D0445DD71A7C2CA500267924;
-			remoteInfo = SSignalKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		68744C321BB1A9F800FE6542 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				68744C1A1BB1A9F700FE6542 /* watchkitapp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6879BEE41B43683E007C9800 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
+				68744C2E1BB1A9F800FE6542 /* watchkitapp.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4955,7 +5000,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F1C735B61E4BD532009BE01D /* SSignalKit.framework in Embed Frameworks */,
 				D020FBEA1D99A83C00F279AA /* MtProtoKitDynamic.framework in Embed Frameworks */,
 				D020FB121D99637200F279AA /* LegacyDatabase.framework in Embed Frameworks */,
 			);
@@ -5845,6 +5889,8 @@
 		686ED31D1BF3CBB8001F2F96 /* StickerPanelPopupLeftDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StickerPanelPopupLeftDark@2x.png"; path = "Resources/StickerPanelPopupLeftDark@2x.png"; sourceTree = "<group>"; };
 		686ED31E1BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StickerPanelPopupMiddleDark@2x.png"; path = "Resources/StickerPanelPopupMiddleDark@2x.png"; sourceTree = "<group>"; };
 		686ED31F1BF3CBB8001F2F96 /* StickerPanelPopupRightDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StickerPanelPopupRightDark@2x.png"; path = "Resources/StickerPanelPopupRightDark@2x.png"; sourceTree = "<group>"; };
+		68744C0D1BB1A9F700FE6542 /* watchkitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchkitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchkitapp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6875C8521BBD27DF0061D94C /* TGMenuSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMenuSheetController.h; sourceTree = "<group>"; };
 		6875C8531BBD27DF0061D94C /* TGMenuSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMenuSheetController.m; sourceTree = "<group>"; };
 		6875C8561BBD28000061D94C /* TGMenuSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMenuSheetView.h; sourceTree = "<group>"; };
@@ -9015,6 +9061,7 @@
 		D020B75B18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernConversationSecretAccessoryTimer@2x.png"; path = "Resources/ModernConversationSecretAccessoryTimer@2x.png"; sourceTree = "<group>"; };
 		D020B75D18B509C50026DB24 /* ModernConversationMicButton_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernConversationMicButton_Highlighted@2x.png"; path = "Resources/ModernConversationMicButton_Highlighted@2x.png"; sourceTree = "<group>"; };
 		D020B75E18B509C50026DB24 /* ModernConversationMicButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ModernConversationMicButton@2x.png"; path = "Resources/ModernConversationMicButton@2x.png"; sourceTree = "<group>"; };
+		D020FADD1D99466A00F279AA /* SiriIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D020FADF1D99466A00F279AA /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
 		D020FAE01D99466A00F279AA /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
 		D020FAE21D99466A00F279AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -10123,6 +10170,7 @@
 		D08696B21943A8B300770FE7 /* pad-builtin-wallpaper-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pad-builtin-wallpaper-0.jpg"; sourceTree = "<group>"; };
 		D087139D1D89910700717706 /* TGStickerPacksArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStickerPacksArchive.h; sourceTree = "<group>"; };
 		D087139E1D89910700717706 /* TGStickerPacksArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGStickerPacksArchive.m; sourceTree = "<group>"; };
+		D087631F1A83963900632240 /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSignalKit.xcodeproj; path = thirdparty/SSignalKit/SSignalKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D08763411A83C47600632240 /* TGModernConversationControllerDynamicTypeSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationControllerDynamicTypeSignals.h; sourceTree = "<group>"; };
 		D08763421A83C47600632240 /* TGModernConversationControllerDynamicTypeSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationControllerDynamicTypeSignals.m; sourceTree = "<group>"; };
 		D0876FE4196F4C33005740CE /* TGGenericPeerMediaGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGGenericPeerMediaGalleryModel.h; sourceTree = "<group>"; };
@@ -11494,8 +11542,7 @@
 		D0FD89A2156FD4FB00CC3714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D0FFBDDD1BAB0E7300F532C9 /* TGChannelMembersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGChannelMembersController.h; sourceTree = "<group>"; };
 		D0FFBDDE1BAB0E7300F532C9 /* TGChannelMembersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGChannelMembersController.m; sourceTree = "<group>"; };
-		F1C539401E4B43E80060BC2C /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSignalKit.xcodeproj; path = submodules/Signals/SSignalKit.xcodeproj; sourceTree = "<group>"; };
+		F1A071D42008E6D20087ADCE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -11560,6 +11607,7 @@
 				D00C79211BBCA4CA00F979C8 /* HockeySDK.framework in Frameworks */,
 				D0CD8FF71BB33B9900E05F40 /* SafariServices.framework in Frameworks */,
 				6836F8F51BB262CC00D3A77B /* WatchConnectivity.framework in Frameworks */,
+				D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */,
 				D0C09C901A6E98A4008369D7 /* OpenGLES.framework in Frameworks */,
 				D0C09C8F1A6E9897008369D7 /* CoreImage.framework in Frameworks */,
 				D0B3942F1A57055D00D9AB97 /* LocalAuthentication.framework in Frameworks */,
@@ -18932,7 +18980,6 @@
 		D07041FB15891CEF008AA657 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				F1C735A31E4BD51F009BE01D /* SSignalKit.xcodeproj */,
 				D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */,
 			);
 			name = External;
@@ -19404,6 +19451,18 @@
 			name = FAQ;
 			sourceTree = "<group>";
 		};
+		D08763201A83963900632240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08763251A83963900632240 /* SSignalKit.framework */,
+				D08763271A83963900632240 /* SSignalKitTests.xctest */,
+				D044E1581B2A20DB001EE087 /* SwiftSignalKit.framework */,
+				D044E15A1B2A20DB001EE087 /* SwiftSignalKitTests.xctest */,
+				D04324E31DC26E2E00E0C528 /* SwiftSignalKitMac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D08763401A83C45D00632240 /* Signals */ = {
 			isa = PBXGroup;
 			children = (
@@ -19458,7 +19517,7 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
-				F1C539401E4B43E80060BC2C /* config.h */,
+				F1A071D42008E6D20087ADCE /* config.h */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
 				D0DAA484197496240036E709 /* Icon-76.png */,
 				D0C6748E1CB8640400183765 /* Icon-167.png */,
@@ -19507,6 +19566,9 @@
 			children = (
 				D08805AC156E8F3600311537 /* Telegram.app */,
 				D02601D71A55CA2300716290 /* Share.appex */,
+				68744C0D1BB1A9F700FE6542 /* watchkitapp.app */,
+				68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */,
+				D020FADD1D99466A00F279AA /* SiriIntents.appex */,
 				D020FB0A1D99637100F279AA /* LegacyDatabase.framework */,
 				099120C01EEAA63400F1366E /* Widget.appex */,
 			);
@@ -19685,6 +19747,7 @@
 				D08BE0711BD956D00004F382 /* Gif Converter */,
 				D00C791B1BBCA4CA00F979C8 /* HockeySDK-iOS-3 */,
 				D0C80D3E1A95621500D5DF8A /* sqlcipher */,
+				D087631F1A83963900632240 /* SSignalKit.xcodeproj */,
 				D02EA2211A367BCD001A25CD /* Motion Blur */,
 				D0CFE45A1A35AB0600839901 /* lz4 */,
 				D071477C1A14BFF300D7896A /* UIImage+WebP.h */,
@@ -22695,18 +22758,6 @@
 			name = Tabs;
 			sourceTree = "<group>";
 		};
-		F1C735A41E4BD51F009BE01D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F1C735AC1E4BD51F009BE01D /* SSignalKit.framework */,
-				F1C735AE1E4BD51F009BE01D /* SSignalKitTests.xctest */,
-				F1C735B01E4BD51F009BE01D /* SwiftSignalKit.framework */,
-				F1C735B21E4BD51F009BE01D /* SwiftSignalKitTests.xctest */,
-				F1C735B41E4BD51F009BE01D /* SwiftSignalKitMac.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -23822,6 +23873,7 @@
 				D0115F321F41F1300039383E /* TLRPCauth_recoverPassword.h in Headers */,
 				D0A4D7C71C10B03200537E74 /* TGVTAcceleratedVideoView.h in Headers */,
 				68EE347F1C922CC8002F5419 /* TGOpenInBrowserItems.h in Headers */,
+				F1A071DE2008E6D30087ADCE /* config.h in Headers */,
 				D01160801F41F1320039383E /* TLRPCphone_discardCall.h in Headers */,
 				D0DB05BE1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h in Headers */,
 				D0C80D321A9561AF00D5DF8A /* TGPasscodeSettingsController.h in Headers */,
@@ -24374,6 +24426,8 @@
 				D020FB011D99509500F279AA /* PBXTargetDependency */,
 				D0CB068C1ADC8DC6005E298F /* PBXTargetDependency */,
 				D061F3011A9290F80031BCBE /* PBXTargetDependency */,
+				68744C2D1BB1A9F800FE6542 /* PBXTargetDependency */,
+				D020FAE41D99466A00F279AA /* PBXTargetDependency */,
 				D020FB101D99637200F279AA /* PBXTargetDependency */,
 				099120CB1EEAA63400F1366E /* PBXTargetDependency */,
 			);
@@ -24433,13 +24487,13 @@
 					};
 					D020FB091D99637100F279AA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = HA23Y6A5LW;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X834Q8SBVP;
+						ProvisioningStyle = Manual;
 					};
 					D02601D61A55CA2300716290 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = HA23Y6A5LW;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X834Q8SBVP;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -24447,8 +24501,8 @@
 						};
 					};
 					D08805AB156E8F3600311537 = {
-						DevelopmentTeam = HA23Y6A5LW;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X834Q8SBVP;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplePay = {
 								enabled = 1;
@@ -24516,6 +24570,9 @@
 			targets = (
 				D08805AB156E8F3600311537 /* Telegraph */,
 				D02601D61A55CA2300716290 /* Share */,
+				68744C0C1BB1A9F700FE6542 /* watchkitapp */,
+				68744C181BB1A9F700FE6542 /* watchkitapp Extension */,
+				D020FADC1D99466A00F279AA /* SiriIntents */,
 				D020FB091D99637100F279AA /* LegacyDatabase */,
 				099120BF1EEAA63400F1366E /* Widget */,
 			);
@@ -24636,37 +24693,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C735AE1E4BD51F009BE01D /* SSignalKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SSignalKitTests.xctest;
-			remoteRef = F1C735AD1E4BD51F009BE01D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
+		68744C171BB1A9F700FE6542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B639CF1BB2514700205AC3 /* MediaVideo@2x.png in Resources */,
+				D0EDC5A51C0D030000271E13 /* Localizable.strings in Resources */,
+				68B639CC1BB2514700205AC3 /* MediaDocument@2x.png in Resources */,
+				D0EDC5A71C0D030900271E13 /* Localizable.strings in Resources */,
+				D0EDC5A41C0D02FC00271E13 /* Localizable.strings in Resources */,
+				68393A4A1C07339300DA2CCA /* Localizable.strings in Resources */,
+				68B639CD1BB2514700205AC3 /* MediaLocation@2x.png in Resources */,
+				68B639CE1BB2514700205AC3 /* MediaPhoto@2x.png in Resources */,
+				D0EDC59A1C0D02F300271E13 /* Localizable.strings in Resources */,
+				685CEA6D1BB6280900393946 /* VerifiedList@2x.png in Resources */,
+				D0EDC5A61C0D030500271E13 /* Localizable.strings in Resources */,
+				68B639C91BB2514700205AC3 /* File@2x.png in Resources */,
+				68B639CA1BB2514700205AC3 /* Location@2x.png in Resources */,
+				68B639CB1BB2514700205AC3 /* MediaAudio@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C735B01E4BD51F009BE01D /* SwiftSignalKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSignalKit.framework;
-			remoteRef = F1C735AF1E4BD51F009BE01D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
+		D020FADB1D99466A00F279AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C735B21E4BD51F009BE01D /* SwiftSignalKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftSignalKitTests.xctest;
-			remoteRef = F1C735B11E4BD51F009BE01D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F1C735B41E4BD51F009BE01D /* SwiftSignalKitMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSignalKitMac.framework;
-			remoteRef = F1C735B31E4BD51F009BE01D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
 		D020FB081D99637100F279AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -27951,6 +28005,11 @@
 			isa = PBXTargetDependency;
 			name = pop;
 		};
+		D020FAE41D99466A00F279AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D020FADC1D99466A00F279AA /* SiriIntents */;
+			targetProxy = D020FAE31D99466A00F279AA /* PBXContainerItemProxy */;
+		};
 		D020FAF51D994A6700F279AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MtProtoKitDynamic;
@@ -27960,6 +28019,11 @@
 			isa = PBXTargetDependency;
 			name = MtProtoKit;
 			targetProxy = D020FB001D99509500F279AA /* PBXContainerItemProxy */;
+		};
+		D020FB041D995E9700F279AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MtProtoKitDynamic;
+			targetProxy = D020FB031D995E9700F279AA /* PBXContainerItemProxy */;
 		};
 		D020FB101D99637200F279AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -29034,7 +29098,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
+				DEVELOPMENT_TEAM = X834Q8SBVP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -29087,11 +29151,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-<<<<<<< HEAD
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
-=======
 				DEVELOPMENT_TEAM = "";
->>>>>>> upstream/public
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -29143,7 +29203,7 @@
 				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
+				DEVELOPMENT_TEAM = X834Q8SBVP;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -29170,9 +29230,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "761707fe-6e26-48ac-ade2-535450bdc05d";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fbef160a-0fa6-4140-aaa6-f54e7aecf152";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Share Development";
 				SKIP_INSTALL = YES;
 			};
 			name = "Debug Hockeyapp";
@@ -29374,8 +29434,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
+				DEVELOPMENT_TEAM = X834Q8SBVP;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -29399,9 +29459,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "25f82627-bca3-44f9-8108-ea51af08a059";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7405c401-c1ea-4de1-965f-c4695051d431";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Share InHouse";
 				SKIP_INSTALL = NO;
 			};
 			name = "Release Hockeyapp";
@@ -29678,7 +29738,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
+				DEVELOPMENT_TEAM = X834Q8SBVP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -29738,17 +29798,10 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.diegosilva.telegram;
 				PRODUCT_NAME = Telegram;
-<<<<<<< HEAD
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6a91a53d-ea71-4910-be4a-0df83714f8e2";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-=======
 				PROVISIONING_PROFILE = "39141dd6-8416-444b-b2f6-1674137bdef0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39141dd6-8416-444b-b2f6-1674137bdef0";
 				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Development";
->>>>>>> upstream/public
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -29773,17 +29826,10 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
-<<<<<<< HEAD
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = HA23Y6A5LW;
-=======
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = C67CF9S4VU;
->>>>>>> upstream/public
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -29841,17 +29887,10 @@
 					"-DTGVOIP_USE_AUDIO_SESSION",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.diegosilva.telegram;
 				PRODUCT_NAME = Telegram;
-<<<<<<< HEAD
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ce29274a-b180-40d3-a08a-e3a99e02624a";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-=======
 				PROVISIONING_PROFILE = "c393746a-d8b4-4397-9863-67776ec1184d";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c393746a-d8b4-4397-9863-67776ec1184d";
 				PROVISIONING_PROFILE_SPECIFIER = "Telegraph AppStore";
->>>>>>> upstream/public
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -29908,7 +29947,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release Hockeyapp";
 		};
->>>>>>> upstream/public
 		D020FB131D99637200F279AA /* Build configuration list for PBXNativeTarget "LegacyDatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

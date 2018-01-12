@@ -67,7 +67,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>$(TELEGRAPH_BUNDLE_ID)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -112,12 +112,11 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>67581</string>
+	<string>67583</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>ITSAppUsesNonExemptEncryption </key>
 	<false/>
->>>>>>> upstream/public
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>

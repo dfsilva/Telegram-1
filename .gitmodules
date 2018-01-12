@@ -7,3 +7,9 @@ url=https://github.com/peter-iakovlev/Signals.git
 [submodule "submodules/MtProtoKit"]
 	path = submodules/MtProtoKit
 	url = https://github.com/peter-iakovlev/MtProtoKit.git
+[submodule "Share/submodules/lmdb"]
+        path = Share/submodules/lmdb
+        url = https://github.com/LMDB/lmdb
+[submodule "submodules/Signals"]
+        path = submodules/Signals
+        url = https://github.com/peter-iakovlev/Signals
